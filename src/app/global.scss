@@ -3,6 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	scroll-behavior: smooth;
+}
 body {
-	@apply text-[#f5f5f5] text-[10px] font-montserrat font-normal leading-[148%] tracking-[0.55px] bg-[#150E3C] md:text-[14px] lg:text-[18px] min-[1919px]:text-[20px];
+	@apply text-[#f5f5f5] text-[10px] font-montserrat font-normal leading-[148%] tracking-[0.55px] bg-[#150E3C] md:text-[14px] lg:text-[18px] min-[1700px]:text-[20px] overflow-x-hidden;
+}
+h1,
+h2,
+h3 {
+	@apply uppercase;
+}
+h2 {
+	@apply font-bold text-[20px] leading-[24px] tracking-[3%] mb-[31px] md:text-[30px] min-[1440px]:text-[40px] text-center lg:mb-[50px];
 }

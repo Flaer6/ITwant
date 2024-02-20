@@ -1,6 +1,9 @@
 import Header from '@/components/layout/header/Header'
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 import './global.scss'
 
 const montserrat = Montserrat({

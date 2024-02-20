@@ -1,0 +1,39 @@
+@import '@/app/vars.scss';
+
+@media (min-width: 768px) {
+	.wrapper {
+		@include bg-img('/bg-main.jpeg', cover, -50px 80px);
+		&::before {
+			content: '';
+			@apply w-[300px] h-full blur-[88px] absolute top-0 -left-[385px] bg-[#150E3C];
+		}
+		&::after {
+			content: '';
+			@apply w-[400px] h-full blur-[88px] absolute top-0 -right-[310px] bg-[#150E3C];
+		}
+	}
+}
+@media (min-width: 1280px) {
+	.wrapper {
+		@include bg-img('/bg-main.jpeg', cover, -90px 40px);
+	}
+}
+
+.button {
+	@apply relative;
+	&::after {
+		content: '';
+		@apply w-[20px] h-[11px] absolute top-[9px] -right-[27px] xl:w-[40px] xl:h-[21px] xl:top-[15px] xl:-right-[50px];
+		@include bg-img('/arrow-right.svg', contain, center);
+		animation: animate 1s infinite alternate ease-in;
+	}
+}
+
+@keyframes animate {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(5px);
+	}
+}

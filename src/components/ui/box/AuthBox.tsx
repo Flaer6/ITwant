@@ -13,10 +13,18 @@ export default function AuthBox({
 }: IProps) {
 	return (
 		<div className={`${className}`}>
-			<Button className={`${buttonStyle} ${styleSignIn} xl:w-[200px]`}>
+			<Button
+				href='#'
+				className={`${styleSignIn} ${buttonStyle} xl:w-[200px] pt-[9px] pb-[6.45px] px-[27px]`}
+			>
 				ВОЙТИ
 			</Button>
-			<Button className={`${buttonStyle} xl:w-[200px]`}>РЕГИСТРАЦИЯ</Button>
+			<Button
+				href='#'
+				className={`${buttonStyle} xl:w-[200px] pt-[9px] pb-[6.45px] px-[27px]`}
+			>
+				РЕГИСТРАЦИЯ
+			</Button>
 		</div>
 	)
 }

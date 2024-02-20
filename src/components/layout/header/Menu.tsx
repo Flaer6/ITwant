@@ -12,7 +12,7 @@ export default function Menu({ className }: { className?: string }) {
 					<li key={link.link}>
 						<Link
 							href={link.link}
-							className='text-[#150E3C] text-[20px] uppercase mb-[50px] block transition-all hover:underline hover:text-black'
+							className='text-[#150E3C] text-[20px] uppercase mb-[50px] inline-block transition-all hover:underline hover:text-black p-1'
 						>
 							{link.name}
 						</Link>

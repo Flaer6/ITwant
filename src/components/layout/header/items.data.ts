@@ -10,11 +10,11 @@ export const links: IData[] = [
 	},
 	{
 		name: 'Курсы',
-		link: '/as',
+		link: '#courses',
 	},
 	{
 		name: 'Блог',
-		link: '/sd',
+		link: '#blog',
 	},
 	{
 		name: 'Об itwant',

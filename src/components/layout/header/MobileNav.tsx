@@ -5,7 +5,7 @@ import Menu from './Menu'
 export default function MobileNav() {
 	const [active, isActive] = useState(false)
 	return (
-		<nav className='xl:hidden'>
+		<nav className='xl:hidden z-20'>
 			<div className=''>
 				<button
 					className='w-[40px] h-[40px] z-10 relative'

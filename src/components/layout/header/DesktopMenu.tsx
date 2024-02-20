@@ -8,7 +8,10 @@ export default function DesktopMenu() {
 			<ul className='flex items-center gap-[47px]'>
 				{links.map(item => (
 					<li key={item.link}>
-						<Link className='text-[20px] font-bold' href={item.link}>
+						<Link
+							className='text-[20px] font-bold transition-all hover:underline'
+							href={item.link}
+						>
 							{item.name}
 						</Link>
 					</li>
