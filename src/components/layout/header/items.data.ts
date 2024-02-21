@@ -18,6 +18,6 @@ export const links: IData[] = [
 	},
 	{
 		name: 'Об itwant',
-		link: '/ds',
+		link: '#about',
 	},
 ]

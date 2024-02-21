@@ -11,6 +11,11 @@ function BlogSlider() {
 				modules={[Pagination]}
 				spaceBetween={20}
 				grabCursor={true}
+				breakpoints={{
+					1280: {
+						slidesPerView: 1.1,
+					},
+				}}
 				pagination={{
 					el: '.swiper-pagination',
 					type: 'bullets',
