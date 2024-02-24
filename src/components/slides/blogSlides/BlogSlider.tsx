@@ -27,7 +27,7 @@ function BlogSlider() {
 				{blogs.map((item, index) => (
 					<SwiperSlide
 						key={index}
-						className='bg-[#391B7A] rounded-[37px] py-[28px] px-[24px] md:flex md:items-center md:justify-betwee lg:bg-transparent lg:rounded-none lg:gap-[57px]'
+						className='block bg-[#391B7A] rounded-[37px] py-[28px] px-[24px] md:flex md:items-center md:justify-betwee lg:bg-transparent lg:rounded-none lg:gap-[57px]'
 					>
 						<div className='lg:bg-[#391B7A] lg:rounded-[37px] lg:px-[50px] lg:pb-[50px] lg:pt-[40px] lg:max-w-[580px]'>
 							<h3 className='font-bold mb-[7px] md:text-[20px] md:mb-[21px] md:leading-[24px]'>
